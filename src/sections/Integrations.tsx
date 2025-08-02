@@ -54,15 +54,16 @@ export default function Integrations() {
                             <span className="text-lime-400">others</span>
                         </h2>
                         <p className="text-white/50 mt-4 text-lg">
-                            Whether it's pair programming, sprint planning, or
-                            late-night bug hunts—I thrive in collaborative
-                            environments. I'm the type who listens before
+                            Whether it&apos;s pair programming, sprint planning,
+                            or late-night bug hunts—I thrive in collaborative
+                            environments. I&apos;m the type who listens before
                             speaking, gives clear feedback, and never lets ego
-                            get in the way of shipping quality code. I've worked
-                            on cross-functional teams, mentored juniors, and
-                            contributed to open-ended discussions without
-                            hijacking them. If the project matters, I'm in—no
-                            drama, just good engineering and a little caffeine.
+                            get in the way of shipping quality code. I&apos;ve
+                            worked on cross-functional teams, mentored juniors,
+                            and contributed to open-ended discussions without
+                            hijacking them. If the project matters, I&apos;m
+                            in—no drama, just good engineering and a little
+                            caffeine.
                         </p>
                     </div>
                     <div>

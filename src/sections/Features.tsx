@@ -81,7 +81,7 @@ export default function Features() {
                     >
                         <div className="aspect-video flex items-center justify-center">
                             <p className="text-4xl font-extrabold text-white/20 group-hover:text-white/10 transition duration-500 text-center">
-                                I've achived{" "}
+                                I&apos;ve achived{" "}
                                 <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent relative">
                                     <span>incredible</span>
                                     <video
