@@ -1,11 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import logoImage from "@/assets/images/logo.svg";
+import logoImage from "@/assets/images/logo.jpg";
 import Button from "@/components/Button";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 const navLinks = [
     { label: "Home", href: "https://www.linkedin.com/in/zoranmilosevic/" },
@@ -26,12 +27,16 @@ export default function Navbar() {
                 <div className="container max-w-5xl">
                     <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">
                         <div className="grid grid-cols-2 lg:grid-cols-3 py-1 px-4 items-center">
-                            <div>
-                                <Image
-                                    src={logoImage}
-                                    alt="Layers logo"
-                                    className="h-9 md:h-auto w-auto"
-                                />
+                            <div className="h-9 md:h-auto sm:h-auto w-auto">
+                                <Link href="https://www.linkedin.com/in/zoranmilosevic/">
+                                    <Image
+                                        src={logoImage}
+                                        alt="Layers logo"
+                                        width={40}
+                                        height={40}
+                                        className="rounded-full object-contain"
+                                    />
+                                </Link>
                             </div>
                             <div className="lg:flex justify-center items-center hidden">
                                 <nav className="flex gap-6 font-medium">
